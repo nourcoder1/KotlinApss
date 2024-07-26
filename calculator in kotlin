@@ -1,9 +1,9 @@
 //Let's create a calculator using a function in Kotlin
     fun main()
     {
-        val a=120
-        val b=10
-        var x=4
+        val a=120 //change it
+        val b=10 //change it
+        var x=4 //cahnge between 0 to 4
 
         if(x==1){
             println(add(a,b))
