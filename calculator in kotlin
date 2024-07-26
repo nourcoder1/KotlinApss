@@ -1,0 +1,57 @@
+//Let's create a calculator using a function in Kotlin
+    fun main()
+    {
+        val a=120
+        val b=10
+        var x=4
+
+        if(x==1){
+            println(add(a,b))
+        }
+        else if (x==2){
+            println(subtraction(a,b))
+
+        }
+        else if(x==3){
+            println(multiplication(a,b))
+
+        }
+        else if(x==4)
+        {
+            if(b!=0)
+            {println(divide(a,b))}
+            else
+                println("undefined! The divisor cannot be 0. ")
+
+        }
+        else
+            println("Make a valid choice!")
+
+
+
+    }
+
+
+    fun add (a:Int,b:Int):Int{
+
+    return a+b
+
+    }
+    fun subtraction (a:Int,b:Int):Int{
+
+    return a-b
+
+    }
+
+
+    fun multiplication (a:Int,b:Int):Int{
+
+        return a*b
+
+    }
+
+    fun divide(a:Int,b:Int):Int{
+
+    return a/b
+
+    }
